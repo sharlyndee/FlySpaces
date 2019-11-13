@@ -1,0 +1,17 @@
+ .color {
+    color: gray;
+  }
+ .map {
+    height: 110vh;
+  }
+ .over {
+    bottom: 210px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .graytext {
+    color: gray;
+  }

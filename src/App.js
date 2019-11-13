@@ -1,27 +1,17 @@
-import React, {Component} from 'react';
-import './App.css';
-import HomeSection from './Pages/HomeSection';
-import MapSection from './Pages/MapSection';
-import CommonButton from './Component/button';
+import React, { Component } from "react";
+import "./App.css";
+import HomeSection from "./Pages/HomeSection/HomeSection";
+import MapSection from "./Pages/MapSection/MapSection";
+import FeaturedSpace from "./Pages/FeaturedSpace/FeaturedSpace";
 
 class App extends Component {
-  render(){
+  render() {
     return (
       <div>
-        <HomeSection/>
-        <MapSection/>
-        <div>
-          <div className='container-fluid'>
-                  <div className='row text-center'>
-                    <div className='col-sm-12'>
-                    <h1>JAKARTA FEATURED SPACES</h1>
-                    <CommonButton>kkj</CommonButton>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+        <HomeSection />
+        <MapSection />
+        <FeaturedSpace />
+      </div>
     );
   }
 }
