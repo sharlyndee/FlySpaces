@@ -18,7 +18,7 @@ class HomeSection  extends React.Component{
     <div className='container-fluid'>
         <div className='row mt-2'>
             <div className='col-sm-2 ml-5 mt-2'>
-              <img src={flyspace} alt='logo'></img>
+              <img src={flyspace} alt='logo' ></img>
             </div>
            
               <div className='col-sm-2 p-3 mt-3 offset-sm-5 text-right'>
@@ -34,10 +34,10 @@ class HomeSection  extends React.Component{
           </div> 
         </div>
 
-    <div className='container-fluid'>
+    <div className='container-fluid  contsize'>
         <div className='row background justify-content-center'>
           <div className='container mt-5 justify-content-center'>
-              <h2 className='h1 p-3'>Kami punya 738 ruang kerja fleksibel untuk mu di</h2> 
+              <h2 className='h1 p-2'>Kami punya 738 ruang kerja fleksibel untuk mu di</h2> 
               <h1 className='h2 p-2'>JAKARTA</h1>
               <p className='h3 p-2'>
                 FlySpace memiliki beratus-ratus pilihan ruang kerja fleksibel untuk anda 
@@ -53,7 +53,7 @@ class HomeSection  extends React.Component{
       </div>
 
 
-        <div className='container'>
+        <div className='container logosize'>
               <div className='row justify-content-center p-2'>
                 <img src={logo} alt='pic'className='pic'></img>
               </div>

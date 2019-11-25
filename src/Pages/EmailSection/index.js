@@ -8,12 +8,15 @@ import CommonButton from '../../Component/button/button.js'
 
 
 export class EmailSection extends Component {
+    handleClick = () => {
+        alert("Hello!")
+    }
     render() {
         return (
             <div className='container mt-5'>
                 <div className='row'>
-                    <div className='col-sm-6'>
-                        <img src={destinationmap} alt='' className='mapsize'></img>
+                    <div className='col-sm-6 mapsize'>
+                        <img src={destinationmap} alt='' className='mappicsize'></img>
                     </div>
                     <div className='col-sm-6'>
                         <h1>Temukan tempat-tempat keren di daerah anda!</h1>
@@ -29,7 +32,7 @@ export class EmailSection extends Component {
                         <input class='form-control mt-2' type='search' placeholder='Telepon' aria-label='Search'></input>
                         
                         <div className='row justify-content-center mt-4'>
-                        <CommonButton className='btnfont btn-lg'> Kirimkan</CommonButton>
+                        <CommonButton className='btnfont btn-lg btn-block'handleClick={this.handleClick}> Kirimkan</CommonButton>
                         </div>
                     </div>
                 </div>

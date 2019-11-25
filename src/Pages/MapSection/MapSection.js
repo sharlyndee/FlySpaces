@@ -24,7 +24,7 @@ const MapSection = () => (
                     <a href='https://www.google.com/' className='color'><u> Jakarta Pusat</u></a>, dan lainnya setiap minggunya.</p>
                 </div>
 
-                    <div className='col-sm-5'>
+                    <div className='col-sm-7 sizediv'>
                         <img src={map} alt='' className='map'></img>
                         </div>
                         <div className='col-sm-5 over'>

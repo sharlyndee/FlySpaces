@@ -12,6 +12,10 @@
   }
 
  
+.contsize{
+  height:100%;
+  width:100%
+}
  .phone {
     height: 3vh;
   }
@@ -29,23 +33,29 @@
 
 
  .pic {
+    
+    height: 100%;
+    width:100%
+  }
+
+  .logosize{
     height: 10vh;
   }
 
-
   .h1 {
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
   }
 
   .h2 {
-    font-size: 70px;
+    font-size: 68px;
     text-align: center;
   }
 
   .h3 {
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
+    color: gray
   }
 
   .h {

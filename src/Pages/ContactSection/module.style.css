@@ -1,5 +1,10 @@
 .contactpic{
-    height: 60vh;
+    height: 100%;
+    width: 100%
+}
+.contactpicsize{
+    height: 100%;
+    width: 100%
 }
 
 .fontsize{

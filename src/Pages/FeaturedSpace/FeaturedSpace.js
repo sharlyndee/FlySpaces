@@ -60,7 +60,7 @@ class FeaturedSpace extends Component {
       },
       tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2
+        items: 1
       },
       mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -69,7 +69,7 @@ class FeaturedSpace extends Component {
     };
     return (
       <div>
-        <div className="container">
+        <div className="container justify-content-center">
           <div className="row text-center">
             <div className="col-sm-12">
               <h1>JAKARTA FEATURED SPACES</h1>

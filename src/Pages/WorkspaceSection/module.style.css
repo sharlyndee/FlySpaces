@@ -1,5 +1,9 @@
 .workpic {
-  height: 45vh;
+  height: 100%;
+  width: 100%;
+}
+.workpicsize {
+  height: 45vh
 }
 
 .button {
@@ -8,4 +12,9 @@
 
 .font-size {
   font-size: 15px;
+}
+
+.margin {
+  margin-top: 100px;
+  margin-bottom: 150px;
 }

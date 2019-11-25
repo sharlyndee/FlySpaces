@@ -1,5 +1,11 @@
-.mapsize{
-    height: 65vh;
+.mappicsize{
+    height: 100%;
+    width: 100%
+}
+
+.mappic{
+height: 100%;
+width: 100%
 }
 
 .btnfont{

@@ -6,14 +6,17 @@ import "./module.style.css";
 
 
 export class Workspace extends Component {
+    handleClick = () => {
+        alert("Hello!")
+    }
     render() {
         return (
             <div>
-                <div className='container mt-5'>
+                <div className='container margin'>
                     <div className='row justify-content-center'>
                         <h1>TEMPAT KERJA UNTUK SEMUA KEBUTAN</h1>
                         <div className='row mt-5'>
-                            <div className='col-sm-5'>
+                            <div className='col-sm-5 workpicsize'>
                                 <img src={workspace} alt='' className='workpic'></img>
                             </div>
                             <div className='col-sm-7'>
@@ -30,7 +33,7 @@ export class Workspace extends Component {
                                 </p> 
                                 <br></br>
                                 <br></br>
-                                    <CommonButton className='button mt-5 btn-lg'>Pelajari lebih lanjut</CommonButton>
+                                <CommonButton className='button mt-5 btn-lg' handleClick={this.handleClick}>Pelajari lebih lanjut</CommonButton>
                                     
                             </div>
                         </div>

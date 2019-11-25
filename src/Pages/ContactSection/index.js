@@ -3,13 +3,17 @@ import contact from "../../Assets/contact.png";
 import "./module.style.css"
 import CommonButton from '../../Component/button/button.js'
 
-export class ContactSection extends Component {
+class ContactSection extends Component {
+
+    handleClick = () => {
+        alert("Hello!")
+    }
     render() {
         return (
             <div>
-                <div className='container p-4'>
+                <div className='container p-4 mt-5 mb-5'>
                     <div className='row mt-5'>
-                        <div className='col-sm-5 justify-content-center'>
+                        <div className='col-sm-5 justify-content-center contactpicsize'>
                             <img src={contact} alt='' className='contactpic'></img>
                         </div>
                         <div className='col-sm-7'>
@@ -24,7 +28,7 @@ export class ContactSection extends Component {
                             <br></br> <b>Indonesia Sales Executive</b>
                             <br></br><b className='fontsize orange'> +6221 2598 5214 | aulia@flyspaces.com</b></p>
                             <br></br>
-                            <CommonButton>Pesan Tour Gratis</CommonButton>
+                            <CommonButton handleClick={this.handleClick}>Pesan Tour Gratis</CommonButton>
 
                         
                         </div>

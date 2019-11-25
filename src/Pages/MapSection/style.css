@@ -2,10 +2,15 @@
     color: gray;
   }
  .map {
-    height: 110vh;
+    height: 100%;
+    width: 100%;
+    
   }
- .over {
-    bottom: 210px;
+ 
+  .sizediv{
+    height:100%;
+    width: 100%
+  
   }
 
   .text {
@@ -14,4 +19,7 @@
 
   .graytext {
     color: gray;
+  }
+  .over{
+    bottom: 5vh;
   }

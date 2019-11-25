@@ -4,7 +4,7 @@ import "./style.css";
  const button =({handleClick, children}) => {
     return(
     <div>
-        <button className='buttonstyle btn btn-warning'
+        <button className='buttonstyle btn btncolor'
             type='button'
             onClick={handleClick}
         > 

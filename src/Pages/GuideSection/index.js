@@ -33,7 +33,7 @@ export class GuideSection extends Component {
     }
     render() {
         return (
-            <div className='container'>
+            <div className='container margin'>
                 <div className='row justify-content-center mt-5'>
                     <h1>TETAP TERINFORMASI</h1>
                 </div>
