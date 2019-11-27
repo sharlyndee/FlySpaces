@@ -1,4 +1,10 @@
  .cardpicture {
+    
+    height:100%;
+    width:100%
+  }
+
+  .cardpicturesize{
     height: 45vh;
   }
  .graytext {

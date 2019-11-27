@@ -1,68 +1,82 @@
- 
-  .background {
-    height: 70vh;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.8),
-        rgba(255, 255, 255, 0.8)
-      ),
-      url("https://cdn.britannica.com/88/132688-050-E9739DD9/Skyline-Jakarta-Indonesia.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
- 
-.contsize{
-  height:100%;
-  width:100%
+.background {
+  height: 70vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("https://cdn.britannica.com/88/132688-050-E9739DD9/Skyline-Jakarta-Indonesia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- .phone {
-    height: 3vh;
-  }
 
-    .button {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-  }
+.tenangfont {
+  font-size: 3vmin;
+}
+.flyspacesize {
+  height: 50%;
+  width: 50%;
+}
 
-  .center {
-    display: flex;
-    justify-content: center;
-  }
+.flyspace {
+  height: 100%;
+  width: 100%;
+}
+.contsize {
+  height: 100%;
+  width: 100%;
+}
+.phone {
+  height: 3vh;
+}
 
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
 
- .pic {
-    
-    height: 100%;
-    width:100%
-  }
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 
-  .logosize{
-    height: 10vh;
-  }
+.pic {
+  height: 100%;
+  width: 100%;
+}
 
-  .h1 {
-    font-size: 38px;
-    text-align: center;
-  }
+.logosize {
+  height: 10vw;
+}
 
-  .h2 {
-    font-size: 68px;
-    text-align: center;
-  }
+.h1 {
+  
+  font-size: 5vmin;
+  text-align: center;
+}
 
-  .h3 {
-    font-size: 27px;
-    text-align: center;
-    color: gray
-  }
-
-  .h {
-    font-size: 5px;
-  }
-
+.h2 {
  
-   .graytext {
-    color: gray;
-  }
+  font-size: 8vmin;
+  text-align: center;
+}
+
+.h3 {
+  
+  font-size: 4vmin;
+  text-align: center;
+  color: gray;
+}
+
+.graytext {
+  color: gray;
+}
+
+.btnsize{
+
+  font-size: 3vmin;
+  
+}
+

@@ -1,8 +1,29 @@
- .buttonstyle {
-    border-radius: 8px;
-    color: white;
-  }
+.buttonstyle {
+  border-radius: 8px;
+  color: white;
+  background-color: rgba(241, 159, 6, 0.932);
+  border: none;
+}
 
-  .btncolor{
-    background-color: orange
-  }
+.buttonsmallfont {
+ font-size: 2vmin;
+ padding:10px;
+}
+
+.buttonlarge{
+  font-size:3vmin;
+  padding: 15px;
+}
+
+.buttonnormal{
+  font-size:1.2em;
+  padding: 18px;
+}
+
+.buttonblock{
+  display: inline-block;
+  width: 100%;
+  font-size:1.6em;
+  padding: 13px;
+  margin-top:10px; 
+}

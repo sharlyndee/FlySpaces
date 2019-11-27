@@ -10,8 +10,10 @@ const Cards = ({ id, name, subname, description, pic }) => {
     return (
             <div className="col-sm-12">
                 <div className="card mt-5 border-0">
-                    <div>
+                <div>
+                        <div className='cardpicturesize'>
                         <img src={pic} alt="" className="cardpicture"></img>
+                    </div>
                         <div className="card-body">
                             <div>
                                 <div className='row d-flex justify-content-between'>

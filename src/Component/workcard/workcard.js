@@ -7,7 +7,9 @@ const WorkCards = ({ id, name, description, pic }) => {
         <div className="col-sm-4">
             <div className="card mt-5 border-0">
                 <div>
-                    <img src={pic} alt="" className="cardpic"></img>
+                    <div className='cardpicsize'>
+                        <img src={pic} alt="" className="cardpic"></img>
+                    </div>
                     <div className="card-body">
                         <div>
                             <div className='row d-flex justify-content-between'>

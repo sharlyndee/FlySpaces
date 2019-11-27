@@ -20,6 +20,9 @@
   .graytext {
     color: gray;
   }
-  .over{
-    bottom: 5vh;
+
+
+  .tbmargin{
+    margin-top:80px;
+    margin-bottom: 80px;
   }

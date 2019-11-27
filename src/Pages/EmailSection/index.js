@@ -31,9 +31,10 @@ export class EmailSection extends Component {
                         <input class='form-control mt-2' type='search' placeholder='Email' aria-label='Search'></input>
                         <input class='form-control mt-2' type='search' placeholder='Telepon' aria-label='Search'></input>
                         
-                        <div className='row justify-content-center mt-4'>
-                        <CommonButton className='btnfont btn-lg btn-block'handleClick={this.handleClick}> Kirimkan</CommonButton>
-                        </div>
+                        
+                        <CommonButton handleClick={this.handleClick} btnstyle='buttonblock'> Kirimkan!</CommonButton>
+                        
+                      
                     </div>
                 </div>
                 

@@ -11,10 +11,11 @@ export class Workspace extends Component {
     }
     render() {
         return (
-            <div>
-                <div className='container margin'>
-                    <div className='row justify-content-center'>
-                        <h1>TEMPAT KERJA UNTUK SEMUA KEBUTAN</h1>
+            
+                <div className='container margin justify-content-center'>
+                    <div className='row justify-content-center text-center'>
+                    <h1>TEMPAT KERJA UNTUK SEMUA KEBUTAN</h1>
+                </div>
                         <div className='row mt-5'>
                             <div className='col-sm-5 workpicsize'>
                                 <img src={workspace} alt='' className='workpic'></img>
@@ -32,15 +33,15 @@ export class Workspace extends Component {
                                     beberapa bulan, anda tidak perlu khawatir, tempat duduk akan selalu ada.
                                 </p> 
                                 <br></br>
-                                <br></br>
-                                <CommonButton className='button mt-5 btn-lg' handleClick={this.handleClick}>Pelajari lebih lanjut</CommonButton>
+                                
+                                <CommonButton handleClick={this.handleClick} btnstyle='buttonnormal'>Pelajari lebih lanjut</CommonButton>
                                     
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
                 
-            </div>
+            
         )
     }
 }

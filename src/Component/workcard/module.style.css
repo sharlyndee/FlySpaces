@@ -1,3 +1,9 @@
 .cardpic{
+    height:100%;
+    width:100%
+}
+
+.cardpicsize{
     height:26vh;
+    
 }
