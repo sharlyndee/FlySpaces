@@ -12,7 +12,7 @@ import socialmedia from '../../Assets/socialmedia.png'
                     <div>
                         <p> Copyright © 2019 FlySpaces Inc. All right reserved. </p>
                     </div>
-                    <div className='offset-sm-7'>
+                    <div className='offset-xl-7 offset-lg-5 offset-2 '>
                         <p>Go to flyspaces.com</p>
                         <img src={socialmedia} alt='' className='socialsize'></img>
                     </div>
