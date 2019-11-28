@@ -24,5 +24,10 @@
 
   .tbmargin{
     margin-top:80px;
-    margin-bottom: 80px;
+    margin-bottom:80px;
+  }
+
+  .mleft{
+    margin-left: 7vmin;
+    margin-right: 4vmin;
   }

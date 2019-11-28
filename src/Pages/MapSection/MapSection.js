@@ -6,7 +6,7 @@ import "./style.css";
 
 const MapSection = () => (
     <div className='container-fluid tbmargin'>
-        <div className='row mt-5 ml-5'>
+        <div className='row mleft'>
                 <div className='col-sm-5'>
                     <h1>Kota Berkembang Pesat</h1> <br/>
                     <p className='text graytext'>

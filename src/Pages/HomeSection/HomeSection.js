@@ -15,17 +15,17 @@ class HomeSection  extends React.Component{
   render(){
   return(
   <div>
-    <div className='container-fluid'>
-        <div className='row mt-2'>
-          <div className='col-4 col-sm-3 col-lg-2 ml-5 mt-3 flyspacesize'>
+    <div className='container-fluid mt-3 mb-3'>
+        <div className='row'>
+          <div className='col-4 col-sm-3 col-lg-2 marginleft flyspacesize p-3'>
               <img src={flyspace} alt='logo' className='flyspace' ></img>
             </div>
           
-          <div className='col-2 col-sm-2 offset-sm-3 offset-1 col-lg-2 p-2 mt-4 offset-lg-5 offset-md-4  text-right'>
+          <div className='mt-4 col-2 col-sm-2 offset-sm-3 offset-1 col-lg-2 p-2  offset-lg-4 offset-md-3  text-right'>
                 <p className='tenangfont'> Tentang Kami</p>
               </div>
               
-          <div className=' col-1 col-sm-2 col-lg-2  mt-4 mb-4'>
+          <div className='mt-4 col-1 col-sm-2 col-lg-2'>
             <CommonButton btnstyle= "buttonsmallfont" handleClick={this.handleClick}>
                   <img src='https://img.icons8.com/carbon-copy/2x/phone.png' alt='' className='phone'></img>
                   HUBUNGGI SEKARANG

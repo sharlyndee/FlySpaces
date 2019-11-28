@@ -37,7 +37,7 @@ class ContactSection extends Component {
                 </b>
               </p>
               
-              <div className=" row ">
+              <div className=" row justify-content-center">
                 <CommonButton handleClick={this.handleClick} btnstyle="buttonnormal">
                   Pesan Tour Gratis
                 </CommonButton>
