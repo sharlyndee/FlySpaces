@@ -21,7 +21,7 @@ class HomeSection  extends React.Component{
               <img src={flyspace} alt='logo' className='flyspace' ></img>
             </div>
           
-          <div className='mt-4 col-2 col-sm-2 offset-sm-3 offset-1 col-lg-2 p-2  offset-lg-4 offset-md-3  text-right'>
+          <div className='mt-4 col-2 col-sm-2 offset-sm-3 offset-1 col-lg-2 p-2  offset-lg-4 offset-xl-5 offset-md-3  text-right'>
                 <p className='tenangfont'> Tentang Kami</p>
               </div>
               
